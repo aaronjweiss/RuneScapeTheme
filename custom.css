@@ -1,0 +1,135 @@
+body {
+	background-image: url(/themes/RuneScape/texture.png);
+}
+
+#strip {
+	background-color: #242e34;
+	color: #34434B;
+}
+
+#status ul {
+	background-color: #242e34;
+	box-shadow: -5px 0px 6px #242e34;
+}
+
+.grab {
+  background: rgba(255,255,255,.4);
+}
+
+.grab:active {
+  background: rgba(255,255,255,.5);
+}
+
+#compose {
+	background-image: url(/themes/RuneScape/texture.png);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	border-top-color: #34434B;
+	background-color: #02090E;
+	box-shadow: 0px 0px 0px !important;
+}
+
+#status #status-signal {
+  background-image: url(/themes/RuneScape/signal.png);
+}
+
+#status #status-wifi {
+  background-image: url(/themes/RuneScape/wifi.png);
+}
+
+#status #status-battery {
+  background-image: url(/themes/RuneScape/battery.png);
+}
+
+#messages .remove {
+	background-image: url(/themes/RuneScape/delete.png);
+}
+
+#compose #settings {
+  background-image: url(/themes/RuneScape/settings.png);
+}
+
+#compose #new {
+  background-image: url(/themes/RuneScape/new.png);
+
+}
+
+#compose #attach {
+  background-image: url(/themes/RuneScape/attach.png);
+}
+
+#compose #emoji-button {
+  background-image: url(/themes/RuneScape/emoji.png);
+}
+
+#compose #media {
+  background-image: url(/themes/RuneScape/media.png);
+}
+
+/*Chromium custom scrollbars, will only work on chromium browsers (such as alt1) */
+::-webkit-scrollbar
+{
+	width:10px;
+	height:10px;
+	background-image: url(/themes/RuneScape/texture.png);
+}
+
+::-webkit-scrollbar-button:start:vertical
+{
+	background:url(/themes/RuneScape/scroll.png) 0px 0px;
+	height:15px;
+}
+
+::-webkit-scrollbar-button:end:vertical
+{
+	background:url(/themes/RuneScape/scroll.png) -45px 0px;
+	height:15px;
+}
+
+::-webkit-scrollbar-track:vertical
+{
+	background:url(/themes/RuneScape/scroll.png) -15px 0px;
+}
+
+::-webkit-scrollbar-thumb:vertical
+{
+	background:url(/themes/RuneScape/scroll.png) -30px 0px;
+	border-radius:5px;
+}
+
+::-webkit-scrollbar-button:start:horizontal
+{
+	background:url(/themes/RuneScape/scrollhor.png) 0px 0px;
+	width:15px;
+}
+
+::-webkit-scrollbar-button:end:horizontal
+{
+	background:url(/themes/RuneScape/scrollhor.png) 0px -45px;
+	width:15px;
+}
+
+::-webkit-scrollbar-track:horizontal
+{
+	background:url(/themes/RuneScape/scrollhor.png) 0px -15px;
+}
+
+::-webkit-scrollbar-thumb:horizontal
+{
+	background:url(/themes/RuneScape/scrollhor.png) 0px -30px;
+	border-radius:5px;
+}
+/*Chromium custom scrollbars, will only work on chromium browsers (such as alt1) */
+
+#compose .tools .tool {
+	background-color: #242e34;
+	border-color: #34434B;
+}
+
+#compose .tools .tool:hover {
+	background-color: #2E3C43;
+}
+
+#compose .tools .tool:active {
+	background-color: #eaeced;
+}
